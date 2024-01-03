@@ -1,0 +1,67 @@
+baseURL = 'https://www.chinut.solutions/'
+title = 'chInuT solutions by benjamin vonlanthen'
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Benjamin Vonlanthen"
+  info = "Software development, data migrations, DevSecOps"
+  description = "chInuT solutions by benjamin vonlanthen - Experienced software developer for Java backend, data migrations and DevSecOps processes"
+  keywords = "Software development, CI/CD, Java, backend, ScrumMaster, data migrations, mySQL, postgresql, mongoDB, DevSecOps, continuous integrations, continuous development"
+  avatarurl = "images/logo.png"
+
+  faviconSVG = "images/favicon.png"
+  favicon_32 = "images/favicon.png"
+  favicon_16 = "images/favicon.png"
+
+  since = 2024
+
+  enableTwemoji = true
+
+  colorScheme = "light"
+  hidecolorschemetoggle = true
+
+  customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/berickus/"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa fa-telegram fa-2x"
+  weight = 2
+  url = "https://t.me/berickus/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/benjamin-vonlanthen-9373a076/"
+
+# Menu links
+[[menu.main]]
+  name = "Services"
+  weight = 1
+  url  = "services/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
