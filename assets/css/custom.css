@@ -1,52 +1,53 @@
 @font-face {
-    font-family: "Xperia";
-    src: url("../fonts/Xperia.ttf"); /* TTF file for CSS3 browsers */
-  }
-  
-  .avatar img {
-    width: 80rem;
-    border-radius: 0;
-  }
-  
-  body {
-    font-family: monospace;
-  }
-  
-  .navigation-title {
-    font-family: "Xperia" !important;
-  }
-  
-  .partners {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-  }
-  
+  font-family: "RobotoSlab";
+  src: url("../fonts/RobotoSlab.ttf");
+}
+
+.avatar img {
+  width: 80rem;
+  border-radius: 0;
+}
+
+body {
+  font-family: monospace;
+}
+
+.navigation-title {
+  font-family: "RobotoSlab" !important;
+  text-transform: unset !important;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.partners .partner {
+  width: 25rem;
+  align-self: center;
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.partners .partner a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
   .partners .partner {
-    width: 25rem;
-    align-self: center;
-    height: 10rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
-  
+
   .partners .partner a {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    justify-content: start;
   }
-  
-  @media only screen and (max-width: 600px) {
-    .partners .partner {
-      margin-top: 1rem;
-    }
-  
-    .partners .partner a {
-      display: flex;
-      justify-content: start;
-    }
-  }
+}

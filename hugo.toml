@@ -1,5 +1,5 @@
 baseURL = 'https://www.chinut.solutions/'
-title = 'chInuT solutions by benjamin vonlanthen'
+title = 'chInuT solutions'
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -16,6 +16,7 @@ disqusShortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
+  subtitle = 'by benjamin vonlanthen'
   author = "Benjamin Vonlanthen"
   info = "Software development, data migrations, DevSecOps"
   description = "chInuT solutions by benjamin vonlanthen - Experienced software developer for Java backend, data migrations and DevSecOps processes"
